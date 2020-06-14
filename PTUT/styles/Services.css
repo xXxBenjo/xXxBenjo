@@ -1,0 +1,147 @@
+body
+{
+    background:#003858 ; 
+    margin : 0;
+    color : white;
+
+}
+/****************Tete*******************/
+header
+{
+    background: #003858 ;
+
+}
+
+input {
+    font-size: 22pt;
+    border :none;
+    border-radius: 40px;
+    background-color: #d37e4f;
+    padding : 10px;
+    color : white;
+    width: 200px;
+    
+
+}
+.effet
+{
+    transition: 0.5s;
+}
+.effet:hover
+{
+    width: 230px;
+    background:#dba895; 
+
+}
+
+.Accueil {
+    background-color:#db9c7d; 
+}
+
+.tete {
+    
+    display : flex;
+    margin: 10px;
+   
+}
+.bouton{
+    margin-top : 55px;
+    
+    margin-bottom: 20px;
+    margin-left: auto;
+    
+    
+} 
+.gris
+{
+    background:#bab8b6 ;
+    width: auto;
+    height: 50px;
+    
+}
+.pres
+{
+    background: #dba895;
+}
+/************************corps****************************/
+.corps
+{
+    display: flex;
+    justify-content: space-between;
+}
+.img1
+{
+    position : absolute;
+    top : 370px;
+    left: 230px;
+}
+.img2 
+{
+    position: absolute; 
+    top : 770px;
+    left : 1400px;
+    
+}
+.rondb1
+{
+    position: absolute; 
+    top : 370px;
+    left: 230px;
+    z-index: -100;
+}
+.rondb2
+{
+    position: absolute;
+    top : 760px;
+    left : 1390px;
+    z-index : -100;
+}
+.titre
+{
+    position: absolute; 
+    left: 720px;
+    top: 240px;
+}
+.txt
+{
+    font-family : Bahnschrift; 
+    font-size : 18pt;
+    margin : 10px;
+    padding : 10px;
+    margin-left:350px;
+    margin-top : 160px;
+}
+
+/******************************Pied********************************/
+
+footer
+{
+    background:#bab8b6 ;
+    font-family : Bahnschrift; 
+    font-size : 22pt;
+    
+   
+}
+.pied
+{
+    display: flex;
+    padding : 20px;
+}
+.mail
+{
+    padding : 20px;
+    margin-left: auto;
+    margin-right :auto;
+}
+.adresse
+{
+    padding : 20px;
+    margin-left: auto;
+    margin-right :auto;
+}
+.tel
+{
+    padding : 20px;
+    margin-left: auto;
+    margin-right :auto;
+}

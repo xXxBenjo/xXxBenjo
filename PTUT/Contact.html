@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>
+             Contact
+		</title>
+		
+		<link rel="stylesheet" href="styles/Contact.css">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<!-------------Tête------------------>
+		<header>
+			<div class="tete">
+				<img src="img/logo1.png" alt="" width="10%">
+				<div class="bouton">
+					<input type="button" value="Accueil" id="Accueil"  class='effet' onclick="goAccueil()">
+					<input type="button" value="Présentation" class='effet' onclick="goPrésentation()">
+					<input type="button" value="Services" class='effet' onclick="goService()">
+					<input type="button" value="Contact" class='pres'>
+					
+				</div>
+			</div>
+			<div class='gris'></div>
+		</header>
+		<!---------------Corps-------------------->
+		
+		<div class='corps'>
+			<img src='img/bandeO.png' width="200px" height="100%">
+			<img src="img/contact.png" class='contact'>
+			<div class="txt">
+                
+                Votre nom : <br>
+				<input type="text" value="" class="formu" id="nom"> <br><br><br>
+                Votre email : <br>
+                <input type="text" value="" class="formu" id="mail"> <br><br><br>
+                Sujet :<br>
+                <input type="text" value="" class="formu" id="sujet"><br><br><br>
+                Votre message :	<br>
+                <textarea class="formu msg" id="mes"></textarea><br> <br>
+                <input type="button" value="Envoyer" class="envoyer effet" onclick="Formulaire()">		
+			</div>
+				<img src="img/enveloppe.png" height="10%" class="env">
+			<img src='img/bandeO.png' width="200px" height="100%">
+		</div>
+<!---------------Pied-------------------->
+		<footer>
+			<div class="pied">
+				<div class="mail">
+					<img src="img/email.svg" width="7%">
+					wabapado@wbpd.fr
+				</div>
+				<div class="adresse">
+					<img src='img/pin.svg' width="7%">
+					90A rue des pommiers, Mulhouse 68100
+				</div>
+				<div class="tel">
+					<img src="img/phone.svg" width="7%">
+					06.00.00.00.01
+				</div>
+			</div>
+		</footer>
+	<script src="js/script.js"></script>
+    
+	</body>
+</html>

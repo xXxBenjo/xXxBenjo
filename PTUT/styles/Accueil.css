@@ -1,0 +1,130 @@
+body
+{
+    background:#003858 ; 
+    margin : 0;
+    color : white;
+
+}
+/****************Tete*******************/
+header
+{
+    background: #003858 ;
+
+}
+
+input {
+    font-size: 22pt;
+    border :none;
+    border-radius: 40px;
+    background-color: #d37e4f;
+    padding : 10px;
+    color : white;
+    width: 200px;
+    
+
+}
+
+.Accueil {
+    background-color:#db9c7d; 
+}
+
+.tete {
+    
+    display : flex;
+    margin: 10px;
+   
+}
+.bouton
+{
+    margin-top : 55px;
+    
+    margin-bottom: 20px;
+    margin-left: auto;  
+    transition: 0.5s;
+} 
+.effet
+{
+    transition: 0.5s;
+}
+.effet:hover
+{
+    width: 230px;
+    background:#dba895; 
+
+}
+.gris
+{
+    background:#bab8b6 ;
+    width: auto;
+    height: 50px;
+    
+}
+.pres
+{
+    background: #dba895;
+}
+/************************corps****************************/
+
+#waba
+{
+    font-family : Hobo Std Medium;
+    font-size : 101pt;
+    position: relative;
+    bottom : 50px;
+    margin : 0;
+}
+.corps
+{
+    display : flex;
+}
+
+
+.txt{
+    font-family : Bahnschrift; 
+    font-size : 20pt;
+    margin : 20px;
+    padding : 40px;
+    
+    
+}
+.corps>.bouton
+{
+    align-content: center;
+}
+
+
+
+
+/******************************Pied********************************/
+
+footer
+{
+    background:#bab8b6 ;
+    font-family : Bahnschrift; 
+    font-size : 22pt;
+    
+   
+}
+.pied
+{
+    display: flex;
+    padding : 20px;
+}
+.mail
+{
+    padding : 20px;
+    margin-left: auto;
+    margin-right :auto;
+}
+.adresse
+{
+    padding : 20px;
+    margin-left: auto;
+    margin-right :auto;
+}
+.tel
+{
+    padding : 20px;
+    margin-left: auto;
+    margin-right :auto;
+}
